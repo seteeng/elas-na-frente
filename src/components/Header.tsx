@@ -21,16 +21,8 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-3">
-            <img src={logo} alt="Logo" className="h-16 w-16 object-contain" />
-            <div className="flex flex-col">
-              <span className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                mulheres
-              </span>
-              <span className="text-xs font-semibold text-accent uppercase tracking-wide">
-                EMPREENDEDORAS DO RIO GRANDE
-              </span>
-            </div>
+          <div className="flex items-center">
+            <img src={logo} alt="Rede Mulheres Empreendedoras do Rio Grande" className="h-16 object-contain" />
           </div>
 
           {/* Desktop Navigation */}
