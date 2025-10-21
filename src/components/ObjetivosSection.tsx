@@ -1,4 +1,4 @@
-import { Map, GraduationCap, DollarSign, Briefcase, Users } from "lucide-react";
+import { Map, GraduationCap, DollarSign, Briefcase, Users, Trophy } from "lucide-react";
 
 const ObjetivosSection = () => {
   const objetivos = [
@@ -26,6 +26,11 @@ const ObjetivosSection = () => {
       icon: Users,
       title: "FORMAÇÃO DA REDE",
       description: "Estímulo da integração e a complementação do trabalho entre elas para as demandas existentes",
+    },
+    {
+      icon: Trophy,
+      title: "SUCESSO",
+      description: "Reconhecimento da conquistas individuais e coletivas das Mulheres da Rede, valorizando suas trajetórias",
     },
   ];
 
